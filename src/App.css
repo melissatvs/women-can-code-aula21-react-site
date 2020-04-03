@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.page {
+    background: #f7f7f7;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav svg {
+  margin-right:5px;
+  color: #e91e63
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteudo {
+  max-width: 1260px;
+  margin: 20px auto
+}
+
+.portfolio-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px
+}
+
+.portfolio-list img {
+  box-shadow: none !important;
+}
+
+.conteudo img {
+  max-width: 500px
+}
+
+.conteudo h1 {
+  font-size: 60px;
+  margin-bottom: 8px;
+}
+
+.conteudo p {
+  font-weight: 300;
+    color: #717173;
+}
+
+.conteudo img {
+    border-radius: 5px;
+    box-shadow: 0 25px 65px rgba(0,0,0,.3);
+}
+
+.conteudo .resumo {
+  flex: 1;
+  margin-left: 50px;
+}
+
+.resumo ul {
+  list-style-type: circle;
+}
+
+.resumo li {
+  color: #555;
+  line-height: 25px;
+}
